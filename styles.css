@@ -71,7 +71,7 @@ hr{
 #signin-email,
 #signin-password{
   width: min(30rem, 85%);
-  height: 44px;
+  height: 30px;
   padding: 0.6rem 0.9rem;
   border-radius: 10px;
   border: 1px solid #C9D1D9;
