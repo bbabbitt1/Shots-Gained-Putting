@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #F5F7FA;">
+    <div class="container">
+
+        <!-- Logo -->
+        <div class="logo-card">
+            <img src="./bblogo.png" alt="Logo">
+            <hr>
+        </div>
+
+        <!-- Register form (left side like sign-in) -->
+        <div class="signin-container">
+            <h1 id="signin-h1">Create Account</h1>
+            <p id="signin-p">Register to start tracking your progress</p>
+
+            <input type="text" placeholder="Username*" id="reg-username" required>
+            <input type="email" placeholder="Email*" id="reg-email" autocomplete="email" required>
+            <input type="password" placeholder="Password*" id="reg-password" autocomplete="new-password" required>
+            <input type="password" placeholder="Confirm Password*" id="reg-confirm" autocomplete="new-password" required>
+
+            <button id="create-btn">Create Account</button>
+
+            <!-- error text -->
+            <p id="register-error" style="color:#b00020; font-family: Verdana; min-height:1rem;"></p>
+
+            <!-- link back to sign-in -->
+            <p style="font-family: Verdana; color:#0E2841; text-align:center; margin-top: 0.25rem;">
+                Already have an account?
+                <a href="/index.html" style="color:#0E2841; font-weight:bold; text-decoration:none;">Sign in</a>
+            </p>
+        </div>
+
+        <!-- Right gradient panel (same as sign-in, but flipped message) -->
+        <div class="register-container">
+            <div class="register-c1">
+                <h1 class="register-items" id="reg-h1">Already a Member?</h1>
+                <p class="register-items" id="reg-p">Sign in to keep tracking <span>YOUR</span> Game!</p>
+                <a class="register-items" id="reg-btn" href="/index.html">Sign In</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="register.js" defer></script>
+</body>
+</html>

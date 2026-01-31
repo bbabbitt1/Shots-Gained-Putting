@@ -1,0 +1,30 @@
+{
+  "name": "shots-gained-putting",
+  "version": "1.0.0",
+  "description": "Shots Gained Putting Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbabbitt1/Shots-Gained-Putting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/bbabbitt1/Shots-Gained-Putting/issues"
+  },
+  "homepage": "https://github.com/bbabbitt1/Shots-Gained-Putting#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "express-session": "^1.19.0",
+    "helmet": "^8.1.0",
+    "mssql": "^12.2.0"
+  }
+}
