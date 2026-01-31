@@ -180,10 +180,14 @@ hr{
     color:#0E2841;
     font-size: 18px;
 }
+#reg-firstname,
+#reg-lastname,
 #reg-username,
 #reg-email,
+#reg-phone,
+#reg-handicap,
 #reg-password,
-#reg-confirm{
+#reg-confirm {
   width: min(30rem, 85%);
   height: 30px;
   padding: 0.6rem 0.9rem;
@@ -195,16 +199,20 @@ hr{
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+#reg-firstname:focus,
+#reg-lastname:focus,
 #reg-username:focus,
 #reg-email:focus,
+#reg-phone:focus,
+#reg-handicap:focus,
 #reg-password:focus,
-#reg-confirm:focus{
+#reg-confirm:focus {
   border-color: #7DD1C7;
   box-shadow: 0 0 0 3px rgba(125, 209, 199, 0.25);
 }
 
 /* Make create account button match your signin button style */
-#create-btn{
+#create-btn {
   display: block;
   margin: 0 auto;
   background-color: #0E2841;
@@ -215,16 +223,17 @@ hr{
   padding: 0.6rem 0.9rem;
   text-align: center;
   font-size: 16px;
+  text-decoration: none;
   cursor: pointer;
   font-family: 'Verdana';
   min-height: 44px;
   width: 20%;
 }
 
-#create-btn:hover{
+#create-btn:hover {
   background-color: #E8ECF0;
   border-color: #0E2841;
-  color:#0E2841;
+  color: #0E2841;
 }
 
 @media (max-width: 768px) {
