@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #F5F7FA;">
+    <div class="container">
+        <div class="logo-card">
+            <img src="./bblogo.png" alt="Logo">
+            <hr>
+        </div>
+
+        <!-- Sign in -->
+        <div class="signin-container">
+            <h1 id="signin-h1">Welcome Back!</h1>
+            <p id="signin-p">Sign in to view your progress</p>
+
+            <!-- small but important changes below -->
+            <input 
+                type="email" 
+                placeholder="Email*" 
+                id="signin-email" 
+                autocomplete="email"
+                required
+            >
+
+            <input 
+                type="password" 
+                placeholder="Password*" 
+                id="signin-password" 
+                autocomplete="current-password"
+                required
+            >
+
+            <button id="signin-btn" type="button">Sign In</button>
+
+            <!-- inline error (no alerts) -->
+            <p id="signin-error" style="color:#b00020; font-family: Verdana; min-height:1rem;"></p>
+        </div>
+
+        <!-- Register -->
+        <div class="register-container">
+            <div class="register-c1">
+                <h1 class="register-items" id="reg-h1">New to the Site?</h1>
+                <p class="register-items" id="reg-p">
+                    Sign up to start tracking <span>YOUR</span> Game!
+                </p>
+
+                <a class="register-items" id="reg-btn" href="/register.html">
+                    Register
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- login script -->
+    <script src="index.js" defer></script>
+</body>
+</html>
+
